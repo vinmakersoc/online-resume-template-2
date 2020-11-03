@@ -6,7 +6,7 @@
 html, body {margin: 0; height: 100%; min-height: 100%;}
 
 body {
-    background-color: #2b2b2b;
+    background-color: #252525;
 }
 
 /* Large devices (laptops/desktops, 992px and up)*/
@@ -23,7 +23,8 @@ body {
 
 nav {
     position: fixed;
-    background-color: #2b2b2b;
+    background-color: #252525;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -63,6 +64,12 @@ nav ul li a:hover {
     color: #E94560;
     transition: 0.3s;
 }
+
+section {
+    margin: 50px 0px;
+    padding: 10px 0px;
+    background-color: #2b2b2b;
+}
 .introduction {
     background-image: url("assets/small-pond-surrounded-by-cliffs-covered-trees-moss.jpg");
     background-size: cover;
@@ -70,22 +77,13 @@ nav ul li a:hover {
     padding: 150px 0px;
 }
 
-.icons {
-    margin: 50px 150px;
+.introduction h1 {
+    color: white;
 }
 
-.linkedin {
-    padding-left: 20px;
-}
-.github {
-    padding-left: 20px;
-}
-.youtube {
-    padding-left: 20px;
-}
 h1 {
     display: block;
-    color: white;
+    color: #E94560;
     font-family: "Lato";
     font-style: normal;
     font-weight: bold;
@@ -225,31 +223,40 @@ button:focus {
     outline: none;
 }
 
+.info-section {
+    margin: 50px 0px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
 footer {
     position: relative;
-    width: 100%;
+    display: block;
+    background-color: #252525;
     bottom: 0;
-    left: 0;  
+    width: 100%;
+    text-align: center;
+}
+
+.contact-me {
+    margin: 20px 0px;
     display: flex;
-;}
-
-footer p {
-    font-family: "Varela Round";
-    font-size: 14px;
+    width: 100%;
 }
 
-.people {
-    display: flex;
-    margin: 50px auto;
+.icons {
+    margin: 20px 0px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
 }
 
-h2 {
-    font-family: "Varela Round";
-    font-size: 20px;
-    color: white;
+.icons a {
+    margin: 0px 50px;
 }
-
-
 /*Small Device - change nav bar to hamburger*/
 @media only screen and (max-width: 992px) {
 
