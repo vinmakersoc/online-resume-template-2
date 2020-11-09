@@ -1,3 +1,33 @@
+<!-- 
+    VinMaker Society Workshop: Online Resume free template 2
+    
+    You can use this HTML template to modify and make it your very own online resume. 
+    Follow the comments for instructions.
+
+    MIT License
+
+    Copyright (c) [2020] [VinMaker Society]
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+-->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,25 +35,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/Favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/Favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/Favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/Favicon/site.webmanifest">
-    <link rel="mask-icon" href="assets/Favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#00a300">
-    <meta name="theme-color" content="#ffffff">
-
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>My Resume</title>
 </head>
 <body>
-
     <header>
         <nav>
             <a class="logo" href="#">
-                <p>Your Name</p>
+                <!--Insert your first and last name below in the <p id="logo"> tag-->
+                <p id="logo">Your Name</p>
             </a>
             <button class="hamburger" id="hamburger">
                 <i class="fa fa-bars"></i>
@@ -40,11 +61,16 @@
     </header>
     <section class="introduction">
         <div class="Intro">
-            <h1>Your Full Name</h1>
+            <!--Insert your Full name below in the <h1 id="full-name"> tag-->
+            <h1 id="full-name">Your Full Name</h1>
+
+            <!--Change the img src below to your profile picture. Preferably a 512 x 512 Squared image-->
             <img class="avatar" src="assets/avatar.png" alt="avatar" style="display: block; width:20%; border-radius: 50%;">
+
+            <!--Write a short introduction sentence below in the <p> tag-->
+            <!--This is an example-->
             <p>I am an Electrical Engineering student at VinUniversity. I mainly work with microcontrollers, but I also dabble in Web Development.</p>
         </div>
-
         <div class="buttons">
             <button class="Upcoming-events" onclick="window.location.href='assets/avatar.png';">Download Resume</button>
             <button class="Explore-projects" onclick="window.location.href='#';">Explore Projects</button>
@@ -54,15 +80,19 @@
 
     <section class="about" id="about">
         <h1>About me</h1>
+
+        <!--Change the description below in the <p> tag-->
+        <!--Introduce yourself (your current job, your main interests,...)-->
         <p>Description about you</p>
     </section>
 
     <section class="education" id="education">
         <h1>Education</h1>
 
+        <!--Change the <p> tag to your school name, period, and short description about your education-->
         <div class="info-section">
             <div class="title">
-                <p>First project</p>
+                <p>High School</p>
                 <p>June 2020 - December 2020</p>
             </div>
             <p>Description</p>
@@ -70,7 +100,7 @@
 
         <div class="info-section">
             <div class="title">
-                <p>Second project</p>
+                <p>University</p>
                 <p>June 2020 - December 2020</p>
             </div>
             <p>Description</p>
@@ -81,9 +111,10 @@
     <section class="work-experiences" id="work-experiences">
         <h1>Work experiences</h1>
 
+        <!--Change the <p> tag to your position, working period, and short description about your work-->
         <div class="info-section">
             <div class="title">
-                <p>First project</p>
+                <p>Position 1</p>
                 <p>June 2020 - December 2020</p>
             </div>
 
@@ -92,7 +123,7 @@
 
         <div class="info-section">
             <div class="title">
-                <p>Second project</p>
+                <p>Position 2</p>
                 <p>June 2020 - December 2020</p>
             </div>
             <p>Description</p>
@@ -100,6 +131,7 @@
     </section>
 
     <section class="skills" id="skills">
+        <!--Add your skills below-->
         <h1>Skills</h1>
         
     </section>
@@ -112,6 +144,7 @@
         </div>
 
         <div class="icons">
+            <!--Change the following links (in href) to your-->
             <a href="https://www.facebook.com/">
                 <img src="assets/social-color-1_logo-facebook.svg" alt="facebook">
             </a>
